@@ -18,7 +18,7 @@ This is a console application written in C# using .NET 7 that demonstrates how t
 ## Usage
 
 1.  Prepare your input image: Place the image you want to rescale in the project directory.
-2.  Run the application from the command line: `dotnet run --project ConsoleImageRescaling.csproj`
+2.  Run the application from the command line: `dotnet run --project ImageRescaling.csproj`
 3.  The application will prompt you for the input image filename, target width, and target height.
 4.  Choose the desired rescaling method: Enter `1` to use EMGU or `2` to use CUDA for the rescaling operation.
 5.  The application will perform the rescaling operation and save the output image in the project directory.
@@ -28,14 +28,10 @@ This is a console application written in C# using .NET 7 that demonstrates how t
 
 arduinoCopy code
 
-`$ dotnet run --project ConsoleImageRescaling.csproj
+`$ dotnet run --project ImageRescaling.csproj
 Enter the input image filename: input.jpg
 Enter the target width: 800
 Enter the target height: 600
-Select the rescaling method:
-  1. EMGU
-  2. CUDA
-Enter your choice: 1
 
 Rescaling image using EMGU...
 Rescaling completed successfully.
@@ -45,10 +41,6 @@ Rescaled image saved as output_emgu.jpg.`
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to enhance the application, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](https://chat.openai.com/LICENSE). Feel free to use and modify the code as per your needs.
 
 ## Acknowledgements
 
