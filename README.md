@@ -20,9 +20,8 @@ This is a console application written in C# using .NET 7 that demonstrates how t
 1.  Prepare your input image: Place the image you want to rescale in the project directory.
 2.  Run the application from the command line: `dotnet run --project ImageRescaling.csproj`
 3.  The application will prompt you for the input image filename, target width, and target height.
-4.  Choose the desired rescaling method: Enter `1` to use EMGU or `2` to use CUDA for the rescaling operation.
-5.  The application will perform the rescaling operation and save the output image in the project directory.
-6.  Open the project directory to view the rescaled image.
+4.  The application will perform the rescaling operation and save the output image in the project directory.
+5.  Open the project directory to view the rescaled image.
 
 ## Example
 
@@ -49,6 +48,6 @@ Contributions are welcome! If you find any issues or want to enhance the applica
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, feel free to contact me at [piero.january15@gmail.com](mailto:piero.january15@gmail.com).
 
 Enjoy image rescaling with EMGU and CUDA!
